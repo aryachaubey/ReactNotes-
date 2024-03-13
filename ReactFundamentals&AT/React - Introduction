@@ -1,0 +1,28 @@
+  what is React ?
+
+  It is an open-source library for building user interfaces
+  Not a Framework
+  It Focuses on UI
+  It has a rich ecosystem 
+
+
+  Why Learn React ?
+
+  It is created and maintained by Facebook
+  More than 100k stars on Github
+  It has a Huge Community 
+  It is an In demand skillset
+
+
+  ----> Why react is a good choice
+
+ technical aspect : It has a Component- Based Architecture
+
+A traditional website can be broken down into 4 main components - 
+
+ (I) Header
+ (II) Side-Nav
+ (III) Main Content 
+ (IV) Footer
+
+Components offers the functionality of Reusable Code.
