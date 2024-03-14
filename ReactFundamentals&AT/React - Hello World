@@ -1,0 +1,15 @@
+
+For using React the first thing that we need to install is the node in our computer
+
+After installing node there are two ways to create our react app 
+
+ (I) One is using create -react-app 
+ (II) Second is using the vite app
+
+These both ways are basically a command line interface tool that allows you to instantly create and
+run applications 
+
+
+
+
+
