@@ -26,3 +26,60 @@ A traditional website can be broken down into 4 main components -
  (IV) Footer
 
 Components offers the functionality of Reusable Code.
+
+for example -  We are creating a notice component in react then we can use the 
+               same component in Angular and Vue by passing the right data .
+
+
+--> React is declarative :
+
+declarative means we just have to tell what to do to the langauge and not how to do it .
+
+ and when we tell how to do it we call it imparartive paradigm .
+
+--> React will handle efficiently updating and rendering the components 
+
+--> DOM updates are handled gracefully in React.
+
+
+More on Why React ?
+It seamlessly integrate react into any of your applications.
+Portion of your page or a computer page or even an entire application itself
+React Native for mobile applications.
+
+
+
+Prerequisites to learn React - 
+
+ HTML , CSS and JavaScript fundamentals
+
+ES6 
+
+JavaScript - 'this' keyword , filter , map and reduce 
+
+ES6 - let & const , arrow functions , template literals , default parameters , object literals , rest and 
+      spread operators and destructuring assignment.
+
+
+Content that we will learn - 
+
+ (i) Fundamentals 
+ (ii) HTTP - for dealing with HTTP request.
+ (iii) Routing 
+ (iv) Redux - for state management 
+ (v) Utilities 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
