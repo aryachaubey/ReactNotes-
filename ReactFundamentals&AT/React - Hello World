@@ -10,6 +10,29 @@ These both ways are basically a command line interface tool that allows you to i
 run applications 
 
 
+command to create a react project : 
+
+ npx create-react-app name_of_prj
+
+Here,
+npx - is an npm package runner that gets installed when we install
+      node into our systems.
+
+
+Slightly different approach for creating a create-react -app using npm 
+
+     :  firstly we install the create react app globally by using this command : 
+
+                               ----> npm install create-react-app -g
+                               -----> create-react-app<project_name>
+
+these both ways can be used while we are using the create-react-app but the npx way is slightly Ez as we do not 
+  have to globally install the create-react-app and then create a prj usingf it.
+
+
+
+
+
 
 
 
