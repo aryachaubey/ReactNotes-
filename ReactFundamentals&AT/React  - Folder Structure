@@ -1,6 +1,33 @@
 Now in this file we are going to break all the confusions about the Folder Structure that we see in a react project -->
 
+At the root level we have 3 folders and 4 files to begin with in any react project that we have created .
 
-...
+-->package.json : this file contains the dependencies and the scripts that are necessary for our react application.
+-->package-lock.json : On the basisof that  we have yarn or npm as our package manager we can see the yarn-lock.json or package-lock.json if we have npm as our package manager 
+                      that ensures consistent installation of the necessary dependencies .
 
+other than these two files we have a .gitignore and a readme file
 
+--3 folders : 
+
+(i) node_modules  : In this folder all the dependencies are installed . 
+(ii)public : this folder contains 3 files - 
+                               -favicon.io : It's just the logo that we will see in the brower when we first run our application.
+                               -index.html :It is the one and only html file that we are having in our react application. we are making SPA , the view might change dynamically but this is this file only which is 
+                                being served up. Typically we are not going to add any code in this html file because we want react to control our ui so that we have only one div tag with id =root,at runtime the react application takes over this div 
+                                tag and is completely responsible for the UI.
+                               - manifest.io : this file is concerned with progressive web apps that we will discuss later.
+
+(iii) src : this folder is the folder that we will be working the most in our react application.
+
+    --- the entry point for our react application is the index.js file in which we specify the root component which is the App Component and the dom element which we 
+         will control by react, in our case it the elemnt with id ="root"
+
+        
+        --App.js : It is contained with the App component and is responsible for all the html displayed over the browser that means , it means the App
+                   component represents the view that we see in our browser.
+
+        -- App.css - with the App.js App.css is also installed in which we have all the styling classes for the App component .
+        -- App.test.js - Now this file contains all the test cases that are used in the unit testing .
+        --index.css - It contains the styling for the body  tag
+        -- serviceWorker.js - again  concerned with progressive web apps.
