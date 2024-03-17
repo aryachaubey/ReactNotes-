@@ -1,1 +1,4 @@
+A Functional Component is the Component which is basically a javascript function 
+that takes an object of properties as a parameter which is also called as a prop and returns HTML OR JSX .
+
 
