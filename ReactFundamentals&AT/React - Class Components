@@ -48,5 +48,7 @@ when we are creating  a class Component , we need two imports :
  In year 2018 , React has made an official announcement about proposing a new feature which is called as Hooks that allows 
  us to use states and other React Features without having the use of Classes.
 
+
+So , Basically Hooks allows Functional Components to use state and other features of React.
   
 
