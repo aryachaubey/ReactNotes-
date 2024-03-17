@@ -1,0 +1,21 @@
+Class Components are basically an ES6 syntax for creating Componets  : 
+
+syntax  : 
+
+
+import React , {Component} from 'react' ; 
+
+Class App Extends Component { 
+
+  render() { 
+
+     return (
+       <h1>Hello World <h1>
+       ):
+    }
+  }
+
+when we are creating  a class Component , we need two imports : 
+
+   (i) import React , {Component} from 'react';
+
