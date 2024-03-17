@@ -1,0 +1,31 @@
+Hi , In this file we are going to discuss about Components  : 
+
+ So, In the Introduction file we have discussed about a technical aspect of React which is Called a Component-Based Architecture 
+ and also how we have divided our App Component into 4 Different components which were header , footer , main-content and the side-nav 
+ in any traditional React appliction .
+
+So these Components are basically divisions of our application into different blocks that we can code and modify according to ourselves.
+In other words, Components are blocks that contains there specific amount of styling and other things like their own state and data.
+
+Components are basically javascript function whose name starts with a Capital letter .
+
+there are two types of functions : 
+
+ (i) Stateless Component : this is basically a javaScript function 
+
+    function Hello () { 
+
+      return (
+        <h1>Hello World<h1>
+        );
+      }
+   
+ (ii) Stateful Functional Component : this type of function renders the html using the render method.
+
+    function 
+
+
+
+  note  :  Every Component returns a JSX sytanx which is an extension of javaScript with a syntax very much like of an HTML .
+
+            above , anywhere we have used a HTML in this document inside the Componet , It is basically JSX Only .
