@@ -19,3 +19,29 @@ when we are creating  a class Component , we need two imports :
 
    (i) import React , {Component} from 'react';
 
+
+
+
+   Functional Vs Class Components  : 
+
+    Functional Components : 
+
+    (i) Use Functional Components as much as possible : 
+    (ii) Absence of this keyword . 
+    (iii) Solution without using state.  
+    (iv) Stateless / Dumb / Presentational .
+
+
+
+     Class Components  : 
+
+     (i) More feature rich 
+     (ii) Maintain their own private data - state 
+     (iii) Complex UI logic 
+     (iv) Provide lifecycle hooks. 
+     (v) Stateful / Smart / Container. 
+
+
+
+  
+
