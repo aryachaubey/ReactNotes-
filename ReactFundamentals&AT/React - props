@@ -1,1 +1,5 @@
-pro
+So props are basically an object of properties which is passed as a property from the parent component to the Child Component .
+
+Basically props were introduced to pass different values to the Same Component which is being more than 2 times , and every prop will have a different value for that Component .
+
+
