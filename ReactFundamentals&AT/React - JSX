@@ -4,7 +4,7 @@ JSX :
 -It is used to create tags , attributes and children. 
 -JSX makes it easier to write simpler code in React.
 -We can create React applications without JSX also .
--JSX is ultimately transpiles into javascript code which is then understood by the Browsers.
+-JSX gets ultimately transpiles into javascript code which is then understood by the Browsers.
 
 
  To create a element without using JSX , we use the createReactElement method from the React Library: 
@@ -23,6 +23,10 @@ React.createElement('div',null,createElement('h1','null,'Hello World')
 
    onclick -> onClick
    tabindex -> tabIndex
+
+  One update has been made in the React 17 that allows us to class also instead of className.
+
+  
 
 
 
