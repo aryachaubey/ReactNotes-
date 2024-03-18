@@ -15,5 +15,14 @@ JSX :
 
 React.createElement('div',null,createElement('h1','null,'Hello World')
 
+   Key Differences of JSX with JavaScript : 
+
+  (i) class -> className in JSX
+  (ii) for -> htmlFor
+  (iii) camelCasing property is there in JSX 
+
+   onclick -> onClick
+   tabindex -> tabIndex
+
 
 
