@@ -3,3 +3,5 @@ So props are basically an object of properties which is passed as a property fro
 Basically props were introduced to pass different values to the Same Component which is being more than 2 times , and every prop will have a different value for that Component .
 
 
+You just create a Component and then you also give it a property which is known as props in React and then you take that props as 
+paramter into that Child Component that you have given the property .
