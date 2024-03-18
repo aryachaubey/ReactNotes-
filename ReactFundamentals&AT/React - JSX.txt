@@ -1,0 +1,18 @@
+JSX :
+
+-JSX is a javaScript extension that looks pretty much similar to an HTML syntax and is used inside a Component : 
+-It is used to create tags , attributes and children. 
+-JSX makes it easier to write simpler code in React.
+-We can create React applications without JSX also .
+-JSX is ultimately transpiles into javascript code which is then understood by the Browsers.
+
+
+ To create a element without using JSX , we use the createReactElement method from the React Library: 
+
+
+ a createReactElement usually take 3 parameters where the first parameter is the h1 tag , second parameter is the object of attributes and 
+ third parameter is a text element and here in the place of the third parameter we have created a new h1 element using the createElement method.
+
+React.createElement('div',null,createElement('h1','null,'Hello World')
+
+
