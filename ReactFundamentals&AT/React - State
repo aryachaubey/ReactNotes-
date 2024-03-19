@@ -1,1 +1,31 @@
+SO In this file we are going to discuss about state 
+
+: So basically State is a temporary data that every Component has .
+  : So State is data of a component which is being changed when there is a change in the UI , or basically it just rerenders.
+
+
+ Note  : States are using hanlder functions which are maintained under events so basically event handeling.
+
+
+Difference  -- 
+
+
+  States Vs Props :
+
+     STATE : 
+
+   (I) a state belongs or is managed within a Component .
+   (II) Variables are declared inside components.
+   (III) state can be changed 
+   (IV) useState Hook - is used for creating Functional Components.
+   (V) this.state - Class Components.
+
+
+     PROP :
+
+  (I) A prop is something which is passed as an argument.
+  (II) props are immutable.
+  (III) Function parameters.
+  (IV) props - functional Component
+  (V) this.props - Class Components.
 
