@@ -1,0 +1,21 @@
+ whenever we want to change the state inside a Componet  :
+
+      We want to change the value of state and also want it to reflect into the UI ,
+
+   if we just directly change or make modification in the state the changes will not be reflected in the UI , but if we 
+     want the changes to be seen on the UI we simply use the 
+
+    setState() method in which if we using a Class Component 
+
+       the syntax will go like this  :
+
+        setState () { 
+
+           this.setState { 
+
+             count  : this.state.count +1 
+
+             }
+
+          }
+    Here  Count is a property of the object that we have created inside the constructor while specifying the state  
