@@ -19,3 +19,15 @@
 
           }
     Here  Count is a property of the object that we have created inside the constructor while specifying the state  
+
+
+
+
+
+     Note :  The state is asynchrnous that means if we are specifying anything after changing the state , then that thing will be called before the state is actually changed , 
+
+
+        To solve this problem  we have the setState method which have two parametres , where first one is the object and the second one is the  callback function using which we can do ou task .
+
+
+
