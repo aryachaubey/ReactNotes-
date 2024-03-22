@@ -1,1 +1,17 @@
+Destructuring  : It is an ES6 feature that makes it possible to unpack values from an array or properties from ojects into 
+                distinct variables .
+
+
+two ways of destructuring props 
+
+1.  ({name , heroName } )  ==> we are using the props name and heroName from the props object and destructuring them to use them directly
+
+ 2. like this    const {name,heroName } = props
+
+Now also we can use it directly  
+
+ and In Class componets it will become like 
+
+  :  const {namem, heroName } = this.props
+
 
