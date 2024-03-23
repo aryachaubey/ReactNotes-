@@ -24,3 +24,15 @@ ex - onClick , onHover , onPress , onSwipe etc.
 
  .. because if we do it we will just call itself on its own without even clicking the event as soon as the interpreter reads that line.
 
+
+
+Note : 
+
+ Event handlers is a function and not a function call 
+
+as handlerFunction is a function 
+and handlerFunction() is a function call.
+
+
+
+To describe event handling in Class Components   we just have to use this.clickHandler in place of clickHandler in line number 17.
