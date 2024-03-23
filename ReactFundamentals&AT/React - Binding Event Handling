@@ -1,0 +1,8 @@
+If we console.log the value of this then we will get undefined 
+
+ because the value of  (this) in a Class Component is undefined and to solve this problem we have to simply bind the event handlers 
+
+
+way to bind in Class Components is to simply use the .bind(this) method with the this.handlerFunction 
+
+like this.handlerFunction.bind(this)
