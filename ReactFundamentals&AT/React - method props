@@ -1,0 +1,3 @@
+Method props are used to communicate from child component to the parent component . 
+
+  What we do is --> we call the method from the parent component from an event in the Child Component .
