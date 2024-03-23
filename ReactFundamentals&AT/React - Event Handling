@@ -1,1 +1,26 @@
+Every web application has user interfaces with which the human interacts , 
+
+  which is marked through some events in the applicatin , which can be any event like oClick event , onHover , onPress and many more,
+
+whenver these event occurs in the web application which is the consequence of a user interaction then something happens or we can say some changes happens to the UI which is 
+ which we devs have to decide that what should be the reaction of these events .
+
+
+
+ Now As we talk about the convention of events in React . it does not uses a naming convention of lowercase , but it uses 
+ the convention of camelCase.
+
+ex - onClick , onHover , onPress , onSwipe etc.
+
+
+
+ onClick = { clickHandler } 
+
+ where clickHandler is an handler function and it will simply handle the click event .
+
+
+>>> One silly mistake we dev do is that we add() to the handler functions of the event handlers but that we should avoid 
+
+
+ .. because if we do it we will just call itself on its own without even clicking the event as soon as the interpreter reads that line.
 
