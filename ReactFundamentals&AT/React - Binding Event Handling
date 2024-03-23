@@ -6,3 +6,9 @@ If we console.log the value of this then we will get undefined
 way to bind in Class Components is to simply use the .bind(this) method with the this.handlerFunction 
 
 like this.handlerFunction.bind(this)
+
+another wayto do binding is using the arrow function 
+
+
+<button  on click = {()=> this.handlerFunction()}>Click me <button/>
+
