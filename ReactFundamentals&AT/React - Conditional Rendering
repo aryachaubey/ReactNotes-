@@ -1,0 +1,61 @@
+Conditional rendering basically means showcasing some portion or the entire portion of the UI based on some conditions,
+ There are 4 ways to actually achieve Conditional Rendering in React : 
+
+ (i) if/else
+ (ii)Element variables
+ (iii)Ternary Conditional Operator
+ (iv) Short Circuit Operator
+
+this.state { 
+   isLoggedIn : true 
+  }
+
+
+(i) If/ELSE approach :  if(isLoggedIn){
+   return <div>Welcome Arya </div>
+   }
+else{
+  return <div>Welcome Guest</div>
+  }
+
+(ii) Element variables : 
+
+  Element variables means : these are just javascript variables that will contain the elements 
+
+  let messsgae 
+
+  if(isLoggedIn){
+    message = <div> Welcome Arya </div>
+    }
+ else  {
+
+   message = <div> Welcome Guest </div>
+   }
+return message
+
+
+Note :  We cannot use the above two approches inside the jsx.
+
+ (iii) Ternary Conditional Operator 
+
+ But we can use this approach inside the jsx
+
+
+    return (
+       this.state.isLoggedIn ? 
+      <div> Welcome Vishwas </div> : 
+      <div> Welcome Guest </div>
+
+
+    (iv)  Short - circuit operator approach 
+       : It is just a special case of the ternary Conditional Operator 
+
+        This approach is used when we want something to render or render nothing at all .
+
+
+           this.length.isLoggedIn && <div>Welcome Vishwas </div>
+      
+   
+
+
+   
