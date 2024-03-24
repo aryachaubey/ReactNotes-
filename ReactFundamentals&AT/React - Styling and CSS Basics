@@ -4,3 +4,7 @@
    2. Inline Styling 
    3. CSS Modules
    4. CSS in JS libraries (styled Components )
+
+
+Note :  When we are applying css stylesheets directly then they are applied to the child component also 
+        but when we are applying CSS modules then it does not apply to the child component hence CSS modules provides better CSS structuring .
