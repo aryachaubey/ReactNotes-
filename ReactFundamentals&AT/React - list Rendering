@@ -1,0 +1,15 @@
+
+In every web application we might have seen that there is a list of items 
+
+and we achieve the rendering of list by repetaively rendering the same Component with different values 
+
+and we do this using a map() method that takes a function as its argument 
+
+and 
+
+arr.map( x => x*2 ) 
+
+here x is the element of array for which each element of the array arr will be placed and the operation will be performed on it hance it 
+ will then return a brand new array with modidifications made to each element of the previous array arr
+
+ 
