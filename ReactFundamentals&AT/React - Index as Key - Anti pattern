@@ -1,0 +1,8 @@
+ In the last file we havce discussed about key and how its value should be a unique one , 
+
+  but when we do not have unique value in our array then in such case we use the index of the particular element of the array to make our key 
+
+
+   For an instance  : 
+
+     arr.map((n,index) =>  names ={n} key = {index} )
