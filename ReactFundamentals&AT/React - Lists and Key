@@ -4,3 +4,15 @@ A key is simply a prop in the list component which will alwyas have a unique val
 
 One more thing about key is that it cannot be called inside the child Component that means it cannot be passed as a prop to the 
  child component.
+
+
+why keys ? 
+
+ Keys plays a major role for making the react understand that which new elements are being added to the list , removed and what has been modified in the UI 
+ to smoothly keep track of the UI changes.
+
+
+ Note : If keys are not there in the list then React will end up alter the UI without actually getting the appropriate access to order of children or list elements .
+
+
+Key : A key is a special string attribute you need to include when you're creating a list .
