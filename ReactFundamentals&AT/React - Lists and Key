@@ -1,0 +1,6 @@
+We are going to discuss about keys in a list :
+
+A key is simply a prop in the list component which will alwyas have a unique value which can anything ,
+
+One more thing about key is that it cannot be called inside the child Component that means it cannot be passed as a prop to the 
+ child component.
