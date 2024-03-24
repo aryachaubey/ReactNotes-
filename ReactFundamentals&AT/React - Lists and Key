@@ -15,4 +15,11 @@ why keys ?
  Note : If keys are not there in the list then React will end up alter the UI without actually getting the appropriate access to order of children or list elements .
 
 
-Key : A key is a special string attribute you need to include when you're creating a list .
+Key : 
+
+A key is a special string attribute you need to include when you're creating a list .
+
+Keys give elements a stable identity
+
+Keys help React identify which items have changed , added or removed .
+
