@@ -1,0 +1,9 @@
+In this file we are going to discuss about Forms and Form Handking , 
+
+SO Basically Forms are the UI element in any website that take input from the user and stores that data somewhere , and in React that 
+somewhere is nowhere but states .
+
+ When we want to control or handle the Forms using the React then we call it a Controlled Component .
+
+ or In other Words we do modification or control the Form using the Controlled Componenet approach.
+
