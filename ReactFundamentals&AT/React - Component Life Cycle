@@ -15,3 +15,18 @@ Life cycle methods  :
 
  (iii) Unmounting : When a Component is being removed from the DOM.
  (iv) Erorr Handling : When there is an Error during rendering , in a lifecycle method, or in the constructor of any child Component.
+
+ > In the Mounting phase : We have 4 methods  - 
+
+    constructor , static getDerivedStateFromProps , render and componentDidMount
+
+ >  In the Updating phase :  We have 5 methods 
+
+    static getDerivedStateFromProps  ,  shouldComponentUpdate , render , getSnapshotBeforeUpdate and ComponentDidUpdate
+
+ > Unmounting : It has only one method 
+
+    componentWillUnmount  
+
+ > Erorr Handling :  static getDerivedStateFromErorr and ComponentDidCatch.
+ 
