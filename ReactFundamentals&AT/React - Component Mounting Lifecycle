@@ -1,0 +1,42 @@
+Component Mounting Lifecycle methods  : 
+
+These methods are called whenever an instance of component is being created and inserted in the DOM 
+
+Order in which they are invoked : 
+
+ -> constructor (props) : A special function that will get called whenever a new component is created.
+    --  It is used for initializing state 
+    --  It is also used in Binding the event handlers
+Never do this in a Constructor : 
+   > Do not cause side effects. Ex - HTTP requests.
+
+
+One more thing to keep in mind while creating a constructor :
+   > we should call the super(props) method which will inherit the property of the base class constructor.
+   > Directly overwrite this.state.
+
+
+-> static getDerivedStateFromProps (props, state ) 
+
+   :  This method is  considered as a rarely used lifecycle method by the react-documentation.
+      -- This method is used when the state of the component depends on changes in props over time.
+
+
+-> render() : 
+
+ It is only a required method in the Class Component .
+ It read props and state and return JSX
+ Should not do : Do not Change state or interact with DOM or make ajax calls.
+
+-> ComponentDidMount() : 
+
+ This ComponentDidMount is called only once in a Component Lifecycle and it is invoked right after a component and all its children components have been rendered to the DOM.
+
+-- This method is a perfect place to cause side effects . Ex - Interact with the DOM or perform any ajax calls to load data.
+
+
+ 
+
+
+
+ 
