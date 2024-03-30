@@ -1,0 +1,12 @@
+Fragments : 
+ In React , Fragments lets you group a list of childrens  without adding extra node to the DOM.
+
+ we know about React that if we are wishing to render multiple child elements or a group of child elements then we must encolse them inside a single parent component, 
+but for doing that if we use a div tag or a div elemnt it will just simply add another node into the HTML DOM tree 
+
+to prevent that we can use Fragments 
+
+  <React.Fragment>
+    <h1>Hii<h2>
+    <p> This is nothing </p>
+  </React.Fragment>
