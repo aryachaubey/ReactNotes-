@@ -1,0 +1,41 @@
+Updating Lifecycle methods : 
+
+  These methods are called or invoked when our component gets rerendered because changes in either state or 
+  props: 
+
+  There are 5 methods from which 3 falls under the category of rarely used methods : 
+
+    Order : 
+
+  -> static getDerivedStateFromProps()
+     : This method is called every time a component is re-rendered
+
+  -> shouldComponentUpdate(nextProps, nextState)
+     : It dictates if the component should re-render or not.
+     : this method is surely used for performance optimization
+  -> render()
+
+  -> getSnapBeforeUpdate(prevProps, prevState) : 
+      : This method is called right before the changes from the virtual DOM are to be reflected in the DOM
+      : It capture some information from the DOM.
+
+   -> componentDidUpdate(prevProps , prevState , snapshot ) : 
+       : It is called after the render is finished in the re-render cycles
+       : Cause side effects.
+
+
+
+Unmounting Phase method : 
+
+These methods are called right after a component is unmounted or destroyed 
+  - > It has only One function :
+   --- componentWillUnmount()  
+
+
+Error Handling Phase Methods : 
+
+ these methods are called when there is an error either during rendering, in a lifecycle method, or in the constructor of any child component.
+ 
+   -> static getDerivedStateFromError  (error)
+   -> componentDidCatch (error, info)
+ 
