@@ -1,0 +1,17 @@
+
+Refs are a function provided by React to access the DOM element and the React elements created in components. 
+They are used in cases where we want to change the value of a child component,
+without making use of props and state.
+
+
+Refs provide a way to access DOM nodes or React elements created in the render method.In the typical React dataflow, 
+props are the only way that parent components interact with their children. 
+To modify a child, you re-render it with new props.
+
+There are three ways to use Refs in React  : 
+
+ (I)create.Ref() method
+ (II) Using Callback Refs
+
+
+
