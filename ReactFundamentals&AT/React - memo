@@ -1,0 +1,7 @@
+
+
+Memo - 
+
+React memo is a Higher Order Component (HOC) introduced in React v16. 6. 
+As the name suggests, Memo API uses the memoization technique to optimize performance and make the application faster. 
+The Memo API avoids unnecessary re-renders in functional components thereby optimizing the performance of the application
