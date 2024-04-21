@@ -1,0 +1,6 @@
+
+ The post request using the axios library takes in two argumenst :  One is the URL and second one is the data that we want to send
+ to the web server.
+
+
+ axios.post('url' , data ).then(response =>{ console.log(response)}).catch(error=> {console.log(erorr)})
