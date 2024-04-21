@@ -1,0 +1,10 @@
+
+
+ There are so many cases when we have to fetch some data from the server to our web Application or even send some data from our web application 
+ to the Server .
+
+ But , As we know React is a Library used for creating and building user INterfaces .SO , They do not tend to make HTTP requests on their own 
+
+ So , to use the fetched data from the sever in a React Component we use HTTP library -
+
+ There are so many HTTP Library , and Among which we will be using Axios.
