@@ -1,1 +1,14 @@
+We are using the Axios library for making HTTP request in React .
 
+ The best location to put the get request in a React file is in the ComponentdidMount() method which executes only once when the 
+ Component is being created, 
+ Hence it is the best place for using the get method.
+
+For doing so -  we will invoke the get method with the axios librarry putting inside the url from the address bar of the data that we want to 
+                fetch  from the server.
+
+  :  axios.get(' ')
+
+
+How to access this fectched data :  As we know that axios is a promise-based library , so we will be using then and catch keywords in order 
+                                    to access the fetched data into the render method of the class Componet.
